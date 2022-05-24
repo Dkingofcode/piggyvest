@@ -1,0 +1,719 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    font-family: sans-serif;
+}
+
+.heading{
+   width: 100%;
+   height: 1000px;
+}
+
+.heading .fixed-header{
+    display: flex;
+    justify-content: space-around;
+}
+
+.heading .fixed-header .logo{
+    margin-left: 30px;
+    display: flex;
+    padding-top: 20px;
+
+}
+
+.heading .fixed-header .logo h2{
+    font-size: 30px;
+    color: rgb(3, 24, 36);
+    font-weight: 700;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.heading .fixed-header .logo img{
+    width: 50px;
+    height: 50px;
+}
+
+.heading .fixed-header .nav-middle{
+    margin: 0px 30px 0px 0px;
+    padding: 30px 10px 0px 0px;
+}
+
+.heading .fixed-header .nav-middle a{
+    margin: 0 10px 0 27px;
+    padding: 7px 5px 7px 5px;
+    text-decoration: none;
+    color: rgb(3, 24, 36);
+    font-size: px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:600;
+}
+
+.heading .fixed-header .nav-right{
+    padding: 30px 10px 39px 30px;
+    margin: 0px 20px 0px 0px;
+}
+
+.heading .fixed-header .nav-right a{ 
+    margin: 0px 10px 0px 0;
+    text-decoration: none;
+}
+.heading .fixed-header .nav-right .sign-up{
+    padding: 18px 18px 18px 18px;
+    border-radius: 10px;
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.heading .fixed-header .nav-right .sign-up:hover{
+    color: rgb(8, 140, 180);
+    border-color: rgb(8, 140, 180);
+    transition-duration: 1s;
+    
+}
+
+.heading .fixed-header .nav-right .account{
+    padding: 18px 30px 18px 30px;
+    border-radius: 10px;
+    color: white;
+    background-color:rgb(3, 24, 36);
+    font-weight: 600; 
+}
+
+.heading .fixed-header .nav-right .account:hover{
+    background-color:  rgb(8, 140, 180);
+    transition: 1s;
+}
+
+
+.heading .relative-header{
+    margin: 70px 0 0px 0;
+    padding: 50px 0 390px 60px;
+    height: 550px;
+}
+.heading .relative-header .rel-textheader{
+    padding: 35px 0 50px 49px;
+    height: 490px;
+}
+
+
+.heading .relative-header h1{
+    font-size: 70px;
+    color: rgb(3, 24, 36);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+    
+
+
+.heading .relative-header .relative-links{   
+      margin: 20px 0px 40px 0px ;
+      padding: 30px 50px 50px 0px;
+      display: inline-block;
+
+}
+
+.heading .relative-header .relative-links .relative-sublinks{
+        margin: 20px 0 0 0;
+        padding: 20px 20px 20px 0px;
+    }
+
+.heading .relative-header .relative-links .relative-sublinks a{
+    border: 1px solid rgb(204, 203, 203);
+    margin-left: 2px;
+    padding: 17px 17px 17px 17px;
+    text-decoration: none;
+    color: #111;
+    border-radius: 10px;
+    font-size: 13px;
+    font-weight:500;
+}    
+
+
+.heading .relative-header .relative-links .account{
+    padding: 18px 30px 18px 30px;
+    text-decoration: none;
+    border-radius: 10px;
+    color: white;
+    background-color:rgb(3, 24, 36);
+    font-weight: 600; 
+    border: 1px solid #111;
+    margin-bottom: 20px;
+
+}
+.heading .relative-header .relative-links img{
+     width: 30px;
+     border: 1px solid #111;
+     margin-right: 7px;
+     height: 28px;
+     position: relative;
+     top: 9px;
+}
+
+.heading .relative-header .rel-image .cover img{
+    border: 1px solid#888;
+    margin-left: 190px;
+    position: relative;
+    bottom: 520px;
+    right: -490px;
+    border-radius: 20px;
+    z-index: 3;
+}
+.heading .relative-header .rel-image .white img{  
+     border: 2px solid#222;
+     position: relative;
+     bottom: 1050px;
+     left: 740px;
+     height: 560px;
+     border-radius: 20px;
+     width: 340px;
+     z-index: 1;
+}
+
+.Securities{
+    
+    margin-bottom: 60px;
+}
+
+.Securities .secure{
+    border: 1px solid #111;
+    text-align: center;
+    margin: 0px 0px 50px 0px;
+    padding: 150px 0px 30px 0px;
+    height: 400px;
+}
+
+
+
+.Securities .secure img{
+       width: 120px;
+       height: 120px;
+       position: relative;
+       right: 270px;
+       bottom: 90px;
+
+}
+.Securities .secure h1{
+    margin-left: 490px;
+    margin-bottom: 0px;
+    font-size: 34px;
+    width: 500px;
+    position: relative;
+    right: 20px;
+    bottom: 250px;
+    color: rgb(3, 24, 36);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.Securities .secure p{
+    margin-top: 0px;
+    width: 690px;
+    margin-left: 480px;
+    line-height: 30px;
+    position: relative;
+    bottom: 230px;
+
+}
+
+.Securities .secure a{
+    text-decoration: none;
+    padding: 4px 4px 4px 4px;
+    color: rgb(8, 140, 180);
+    margin: 90px 0px 0px 0px;
+    border: 1px solid #333;
+    position: relative;
+    bottom: 190px;
+    right: 150px;
+}
+
+.Securities .secure a::after{
+   content: "";
+   background-color: black;
+   width: 0%;
+   height: 0px;
+   display: inline-block;
+   border-bottom: 3px solid #444;
+   grid-column: auto;
+
+
+} 
+.Securities .secure a:hover::after{
+    width: 10%;
+    transition: all 0.5s ease-in-out;
+}
+
+
+
+.Securities .savings{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 700px;
+    margin-bottom: 300px;
+
+}
+
+.Securities .savings .save-intro{
+    margin-left: 50px;
+    height: 300px;
+    padding: 0px 30px 0px 30px;
+}
+
+
+.Securities .savings .save-intro h1{
+    font-size: 35px;
+    color: rgb(3, 24, 36);
+    line-height: 42px;
+    margin-bottom: 12px;
+}
+.Securities .savings .save-intro p{
+    line-height: 25px;
+}
+
+.Securities .savings .save-intro a{
+    padding: 18px 30px 18px 30px;
+    text-decoration: none;
+    border-radius: 10px;
+    color: white;
+    background-color:rgb(3, 24, 36);
+    font-weight: 600; 
+    border: 1px solid #111;
+    position: relative;
+    top: 50px;
+    
+}
+
+
+.Securities .savings .save-2nd{
+    margin-left: 50px;
+    height: 300px;
+    border-radius: 20px;
+    padding: 0px 30px 0px 30px;
+    background-color: rgb(230, 230, 220, 0.3);
+}
+.Securities .savings .save-2nd img{
+    margin-bottom: 40px;
+}
+
+.Securities .savings .save-2nd h2{
+    font-size: 19px;
+    color: rgb(3, 24, 36);
+}
+
+.Securities .savings .save-2nd p{
+    line-height: 25px;
+    margin-top: 20px;
+}
+
+.Securities .savings .save-2nd a{
+    position: relative;
+    top: 60px;
+    text-decoration: none;
+    color: #111;
+}
+
+.Securities .savings .save-3rd{
+    margin-left: 50px;
+    height: 300px;
+    border-radius: 20px;
+    padding: 0px 30px 0px 30px;
+    background-color: rgb(230, 230, 220, 0.3);
+}
+
+.Securities .savings .save-3rd img{
+    margin-bottom: 40px;
+}
+
+
+.Securities .savings .save-3rd h2{
+    font-size: 19px;
+    color: rgb(3, 24, 36);
+}
+.Securities .savings .save-3rd p{
+    line-height: 25px;
+    margin-top: 0px;
+}
+
+.Securities .savings .save-3rd a{
+    position: relative;
+    top: 60px;
+    text-decoration: none;
+    color: #111;
+}
+
+.Securities .savings .save-4th{
+    height: 300px;
+    border-radius: 20px;
+    padding: 0px 30px 0px 30px;
+    margin-left: 500px;
+    background-color: rgb(230, 230, 220, 0.3);
+}
+
+.Securities .savings .save-4th img{ 
+    margin-bottom: 40px;
+}
+
+.Securities .savings .save-4th h2{
+    font-size: 19px;
+    color: rgb(3, 24, 36);
+}
+
+.Securities .savings .save-4th p{
+    line-height: 25px;
+    margin-top: 0px;
+}
+
+.Securities .savings .save-4th a{
+    position: relative;
+    top: 60px;
+    text-decoration: none;
+    color: #111;
+}
+
+.Securities .savings .save-5th{
+    height: 300px;
+    border-radius: 20px;
+    padding: 0px 30px 0px 30px;
+    margin-left: 50px;
+    background-color: rgb(230, 230, 220, 0.3);
+}
+
+.Securities .savings .save-5th img{
+    margin-bottom: 40px;
+}
+
+.Securities .savings .save-5th h2{
+    font-size: 19px;
+    color: rgb(3, 24, 36);
+
+}
+
+.Securities .savings .save-5th p{
+    line-height: 25px;
+    margin-top: 0px;
+}
+
+.Securities .savings .save-5th a{
+    position: relative;
+    top: 60px;
+    text-decoration: none;
+    color: #111;
+}
+
+.Securities .invest{
+    border: 1px solid #111;
+    display: flex;
+    height: 700px;
+    padding-top: 90px;
+}
+
+.Securities .invest .i-message{
+    height: 470px;
+    width: 590px;
+    position: relative;
+    left: 290px;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.Securities .invest img{
+    position: relative;
+    left: 150px;
+    height: 550px;
+    width: 250px;
+}
+
+.Securities .invest .pop-up{
+    margin-bottom: 50px;
+    color: rgb(131, 24, 202);
+    height: 40px;
+    width: 200px;
+    border-radius: 14px;
+    font-size: 15px;
+    padding: 3px 14px 0px 29px;
+    font-weight: 800;
+    background-color: rgb(230, 230, 220, 0.3);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Securities .invest h1{
+    font-size: 50px;
+    margin-bottom: 30px;
+    color: rgb(3, 24, 36);    
+}
+
+.Securities .invest p{
+    line-height: 26px;
+    margin-bottom: 40px; 
+    color:rgb(3, 24, 36);    
+}
+.Securities .invest a{
+    text-decoration: none;
+    color: rgb(43, 116, 226);
+}
+
+.Exclusive{
+    border: 1px solid#222;
+    display: flex;
+    background-color: rgb(43, 116, 226);
+    padding: 0px 0px 0px 0px;
+
+}
+
+.Exclusive h1{
+    font-size: 55px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.Exclusive .news{
+    position: relative;
+    top: 60px;
+    left: 90px;
+}
+
+.Exclusive p{
+    color: bisque;
+    margin-bottom: 65px;
+    line-height: 25px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.Exclusive img{
+    position: relative;
+    left: 395px;
+    width: 360px;
+    height: 460px;
+}
+
+.Exclusive a{
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.Customers{
+    border: 1px solid #222;
+    margin-top: 30px;
+    display: flex;
+    height: 500px;
+    justify-content: space-around;
+}
+.Customers img{
+    width: 350px;
+    height: 350px;
+}
+
+.Customers .cus{
+    border-left: 90px;
+    width: 570px;
+    height: 400px;
+}
+
+.Customers .cus h1{
+    margin-bottom: 30px;
+    font-size: 35px;
+    color: rgb(3, 24, 36);
+}
+
+.Customers .cus p{
+    line-height: 25px;
+}
+
+.Customers .cus a{
+    border: 1px solid rgb(204, 203, 203);
+    margin-left: 2px;
+    padding: 17px 17px 17px 17px;
+    text-decoration: none;
+    color: #111;
+    border-radius: 10px;
+    font-size: 13px;
+    font-weight:500;
+    margin-top: 40px;
+}
+
+.Customers .cus .sublinks{
+    height: 190px;
+    width: 620px;
+}
+
+.Customers .cus .apple{
+    position: relative;
+    top: 110px;
+    right: 210px;
+}
+
+.Customers .cus .android{
+    position: relative;
+    top: 110px;
+    right: 200px;
+}
+
+.Customers .cus .account{
+    padding: 18px 30px 18px 30px;
+    text-decoration: none;
+    border-radius: 10px;
+    color: white;
+    background-color:rgb(3, 24, 36);
+    font-weight: 600; 
+    border: 1px solid #111;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    position: relative;
+    top: 30px;
+    right: 20px;
+}
+
+.Customers .cus img{
+    width: 20px;
+    height: 10px;
+    width: 30px;
+     margin-right: 7px;
+     height: 28px;
+     position: relative;
+     top: 9px;
+}
+
+.Ads{
+    border: 1px solid #111;
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    background-color: rgb(230, 230, 220, 0.3); ;
+}
+
+.Ads h1{
+    margin-right: 170px;
+    margin-left: 190px;
+    margin-top: 19px;
+    color: rgb(3, 24, 36); 
+}
+
+.Ads img{
+    width: 170px;
+    height: 90px;
+}
+
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+}
+footer h2{
+    margin-right: 30px;
+    font-size: 30px;
+    color: rgb(3, 24, 36);
+    margin-top: 80px;
+}
+footer h6{
+    font-size: 13px;
+    color: rgb(3, 24, 36);
+    font-weight: 800;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+footer a{
+    text-decoration: none;
+    color: rgb(3, 24, 36);
+    margin-bottom: 11px;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+footer .Pro{
+    display: flex;
+    flex-direction: column;
+    height: 165px;
+    margin-right: 150px;
+    margin-top: 70px;
+}
+
+footer .Com{
+    display: flex;
+    flex-direction: column;
+    height: 165px;
+    margin-right: 120px;
+    margin-top: 70px;
+}
+
+footer .Leg{
+    display: flex;
+    flex-direction: column;
+     height: 165px;
+     margin-right: 90px;
+     margin-top: 70px;
+}
+
+footer .contact{
+}
+
+footer .contact p{
+    margin-bottom: 30px;
+    font-size: 15px;
+    color: rgb(3, 24, 36);
+} 
+
+footer .contact .email{
+   
+}
+footer .contact .number{
+  position: relative;
+  top: 20px;
+  right: 130px;
+}
+
+footer img{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*
+margin: 20px 0 0 0;
+border: 1px solid #444;
+padding: 20px 20px 20px 0px;
+border: 1px solid#888;
+}
+
+
+  border: 1px solid rgb(204, 203, 203);
+    margin-left: 2px;
+    padding: 17px 17px 17px 17px;
+    text-decoration: none;
+    color: #111;
+    border-radius: 10px;
+    font-size: 13px;
+    font-weight:500;
+
+ width: 30px;
+     border: 1px solid #111;
+     margin-right: 7px;
+     height: 28px;
+     position: relative;
+     top: 9px;
+}
+
