@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?fM+Sans&display=swap');
 
 *{
     margin: 0;
@@ -170,7 +170,7 @@ body{
     text-decoration: none;
     border: 1px solid rgb(204, 203, 203);
     margin-right: 22px;
-    margin-left: px;
+    margin-left: 0px;
     padding: 10px 20px;
     color: #111;
     border-radius: 10px;
