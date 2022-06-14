@@ -16,6 +16,8 @@
   align-items: center;
   width: 90%;
   margin: 0 auto;
+  padding: 24px 0;
+  border: 1px solid blue;
 }
 
 .logo {
@@ -44,9 +46,15 @@
   display: none;
 }
 
+.login > .sign-up,
+.login > .account {
+  border: 1px solid red;
+  padding: 16px 22px;
+  margin: 0 0 0 10px;
+}
 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
   
   .heading {
     justify-content: space-between;
