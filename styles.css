@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?fM+Sans&display=swap');
 
 *{
     margin: 0;
@@ -19,12 +19,14 @@ body{
 }
 
 .heading {
-   justify-content: space-around;
    display: flex;
    width: 90%;
    margin: 0 auto;
-   border: 1px solid purple;
    /* padding: 24px 0; */
+   margin-top: 10px;
+   border: 1px solid purple;
+   position: fixed;
+   top: 0;  
 }
 
 .logo{
@@ -65,17 +67,25 @@ body{
 
 }
 
+.login{
+    height: auto;
+
+}
+
 .login .sign-up{
     color: black;
     padding: 16px 22px;
     border: 1px solid black;
+    margin: 5px 0 0 0;
     border-radius: 10px;
     font-size: 17px;
+
 }
 .login .account{
     color: white;
     padding: 16px 22px;
     border: 1px solid black;
+    margin: 12px 0 0 0;
     border-radius: 10px;
     font-size: 17px;
     background-color:rgb(3, 24, 36);
@@ -83,12 +93,13 @@ body{
 
 
 .login{
-    margin: 0 0px 0 0;
+    margin: 10px 0px 0 0;
 }
 
 .login a{
     text-decoration: none;
     font-weight: 700;
+    margin-top: 3px;
 }
 
 .hero-section,
@@ -171,7 +182,7 @@ body{
     text-decoration: none;
     border: 1px solid rgb(204, 203, 203);
     margin-right: 22px;
-    margin-left: px;
+    margin-left: 0px;
     padding: 10px 20px;
     color: #111;
     border-radius: 10px;
@@ -191,7 +202,7 @@ body{
     z-index: 1;
     position: relative;
     right: 90px;
-    bottom: 20px;
+    bottom: 0px;
     width: 950px;
     height: 100%;
     padding: 0px 0 0px 0;
@@ -200,7 +211,7 @@ body{
     position: relative;
     border: 2px solid black;
     width: 350px;
-    height: 110%;
+    height: 100%;
     right: 190px;
     border-radius: 20px;
 }
@@ -215,6 +226,46 @@ body{
    position: relative;
    top: 20px;
    left: 20px;
+}
+
+.Securities{
+    border: 1px solid ;
+    display: flex; 
+    justify-content: center;   
+}
+
+.Securities .secure{
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.secure img{
+    border-radius: 10px 10px 290px 290px;
+    height: 120px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+.Securities .secure h1{
+    font-size: 30px;
+    color: rgb(3, 24, 36);
+    margin-bottom: 10px;
+    font-weight: 800;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Securities .secure p{
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+
+.Securities .secure a{
+    text-decoration: none;
+    font-weight: 600;
+    color: rgb(58, 58, 245);
 }
 
 @media only screen and (max-width: 400px) {
