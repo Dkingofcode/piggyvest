@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.post-card{
+    border: 1px solid black;
+    height: 700px;
+}
+
+.white{
+    border: 2px solid black;
+    position: relative;
+    z-index: 1;
+    right: 40px;
+    height: 570px;
+    top: 30px;
+    left: 190px;
+    width: 350px;
+    border-radius: 20px;
+}
+
+.head{
+    border: 1px solid violet;
+    position: relative;
+    z-index: 2;
+    top: 0px;
+    left: 490px;
+    border-radius: 20px;
+}
+.green{
+    position: relative;
+    z-index: 3;
+    height: 70px;
+    width: 170px;
+    right: 290px;
+    bottom: 290px;
+    border-radius: 10px;
+}
+
+.v-lock{
+    position: relative;
+    z-index: 3;
+    height: 60px;
+    right: 90px;
+    width: 100px;
+    border-radius: 20px;
+    border: 1px solid;
+}
+
+.upwork{
+    position: relative;
+    z-index: 3;
+    width: 120px;
+    height: 70px;
+    bottom: 390px;
+    right: 190px;
+    border-radius: 20px;
+    border: 1px solid;
+}
+
+
+
+
+
+
+
+
+
+
