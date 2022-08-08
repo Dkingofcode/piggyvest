@@ -10,6 +10,7 @@
 body{
     width: 100%;
     font-family: sans-serif;
+    overflow-x: hidden;
 }
 
 .heading,
@@ -418,6 +419,8 @@ body{
  
  .Securities .savings .save-4th{
      height: 300px;
+     width: 330px;
+     margin-left: 50px;
      border-radius: 20px;
      padding: 0px 30px 0px 30px;
      margin-left: 0px;
@@ -447,9 +450,11 @@ body{
  
  .Securities .savings .save-5th{
      height: 300px;
+     width: 330px;
      border-radius: 20px;
      padding: 0px 30px 0px 30px;
-     margin-left: 190px;
+     margin-left: 50px;
+     margin-right: 30px;
      background-color: rgb(230, 230, 220, 0.3);
  }
  
@@ -496,6 +501,7 @@ body{
      left: 150px;
      height: 550px;
      width: 250px;
+     border-radius: 39px;
  }
  
  .Securities .invest .pop-up{
@@ -557,7 +563,7 @@ body{
 
 .Exclusive img{
     position: relative;
-    left: 395px;
+    left: 205px;
     width: 360px;
     height: 460px;
     object-fit: contain;
@@ -663,8 +669,8 @@ body{
 }
 
 .Ads h1{
-    margin-right: 170px;
-    margin-left: 190px;
+    margin-right: 100px;
+    margin-left: 90px;
     margin-top: 19px;
     color: rgb(3, 24, 36); 
 }
@@ -676,10 +682,16 @@ body{
 
 
 footer{
-    display: flex;
     justify-content: space-around;
-    height: 500px;
+    height: 380px;
 }
+
+.foot-logo{
+  width: 200px;
+  height: 70px;
+  border: 1px solid tan;
+}
+
 footer h2{
     margin-right: 30px;
     font-size: 30px;
@@ -687,7 +699,8 @@ footer h2{
     margin-top: 80px;
 }
 footer h6{
-    font-size: 13px;
+    font-size: 14px;
+    margin-bottom: 10px;
     color: rgb(3, 24, 36);
     font-weight: 800;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -697,7 +710,7 @@ footer a{
     text-decoration: none;
     color: rgb(3, 24, 36);
     margin-bottom: 11px;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 400;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -708,7 +721,7 @@ footer .Pro{
     flex-direction: column;
     height: 165px;
     margin-right: 150px;
-    margin-top: 70px;
+    margin-top: 0px;
 }
 
 footer .Com{
@@ -716,7 +729,7 @@ footer .Com{
     flex-direction: column;
     height: 165px;
     margin-right: 120px;
-    margin-top: 70px;
+    margin-top: 0px;
 }
 
 footer .Leg{
@@ -724,8 +737,35 @@ footer .Leg{
     flex-direction: column;
      height: 165px;
      margin-right: 90px;
-     margin-top: 70px;
+     margin-top: 0px;
 }
+
+footer .top{
+    display: flex;
+    padding: 0 40px;
+}
+footer .list{
+    display: flex;
+    border: 1px solid;
+}
+
+footer .contact{
+    display: block;
+    flex-direction: column;
+    text-align: end;
+    border: 1px solid red;
+}
+
+footer .contact a{
+    right: 0;
+    display: block;
+    text-decoration: none;
+    color: rgb(3, 24, 36);
+    margin-bottom: 1px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
 
 footer .contact p{
     margin-bottom: 30px;
@@ -735,16 +775,28 @@ footer .contact p{
 
 footer .contact .number{
   position: relative;
-  top: 20px;
-  right: 130px;
+  top: 0px;
+  right: 10px;
 }
 
 footer img{
     width: 30px;
     height: 30px;
     margin-bottom: 30px;
-    margin-left: 30px;
+    margin-left: 0px;
+}
 
+footer .closing{
+    border: 1px solid yellow;
+    margin-top: 40px;
+    font-size: 0.85rem;
+    text-align: center;
+    padding: 0 190px;
+}
+
+footer .closing .blue{
+    margin-top: 50px;
+    color: blue;
 }
 
 
@@ -778,7 +830,8 @@ footer img{
 
     .hero-section{
         display: flex;
-        width: 100%;
+        flex-wrap: wrap;
+        width: 90%;
         height: 500px;
         margin-top: 20px;
     }
@@ -820,9 +873,7 @@ footer img{
         text-decoration: none;
     }
 
-    .hero-image{
-        display: none;
-    }
+    
 
     .hero-links .account{
         color: white;
@@ -861,1537 +912,717 @@ footer img{
         top: 2px;
         right: 3px;
     }
-}
 
-
-/*.heading .fixed-header .logo{
-    margin-left: 30px;
-    display: flex;
-    padding-top: 20px;
-
-}
-
-.heading .fixed-header .logo h2{
-    font-size: 30px;
-    color: rgb(3, 24, 36);
-    font-weight: 700;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-}
-.heading .fixed-header .logo img{
-    width: 50px;
-    height: 50px;
-}
-
-.heading .fixed-header .nav-middle{
-    display: flex;
-    margin: 0px 10px 0px 0px;
-    padding: 20px 60px 0px 0px;
-}
-
-.heading .fixed-header .nav-middle ul{
-       display: flex;
-        list-style: none;
-
-
-}
-
-.heading .fixed-header .nav-middle ul li{
-    margin: 0 19px 0 27px;
+    
+.hero-image{
+    width: 69%;
+    max-width: 590px;
+    border: 3px solid salmon;
+    margin: 40px auto;
     position: relative;
-    display: flex;
-    flex-wrap: nowrap;
-    padding: 7px 5px 7px 5px;
-    color: rgb(3, 24, 36);
-    font-size: 16px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight:600;
 }
 
-.heading .fixed-header .nav-middle ul li a{ 
-    text-decoration: none;
-    color: rgb(3, 24, 36);
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.hero-image .white{
+    z-index: 1;
+    position: relative;
+    right: 90px;
+    bottom: 0px;
+    width: 900px;
+    margin-right: 50px;
+    height: 570px;
+    padding: 0px 0 0px 0;
 }
-
-.drop-menu{
-    display: none;
-}
-
-.heading .fixed-header .nav-middle ul li:hover .drop-menu{
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 100%;
-    left: -190px;
-}
-
-.heading .fixed-header .nav-middle .drop-menu ul{
-    display: flex;
-    border: 1px solid #111;
-    flex-wrap: wrap;
-    width: 420px;
-    height: 140px;
+.hero-image .white img{
+    position: relative;
+    border: 2px solid black;
+    max-width: 350px;
+    height: 100%;
+    right: 100px;
     border-radius: 20px;
 }
 
-.heading .fixed-header .nav-middle .drop-menu ul li{
-       width: 150px;
-       height: 60px;
-       padding-right: 80px;
-       margin-bottom: 0px;
+.hero-image .cover{
+    position: relative;
+    z-index: 2;
+    left: 90px;
+    border: 1px solid tan; 
+}
+ 
+.hero-image .cover img{
+   border-radius: 10px;
+   margin: 0 auto;
+   position: relative;
+   top: 20px;
+   height: 520px;
+   left: 0px;
+}
+
+    .Securities .secure{
+        border: 1px solid gray;
+        display: flex;
+        margin: 690px auto 70px auto;
+        text-align: center;
+        width: 90%;
+        border: 2px solid rebeccapurple;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .secure img{
+        border-radius: 10px 10px 290px 290px;
+        height: 120px;
+    
+        margin: 50px 50px 50px 0 ;
+    }
+    
+    .Securities .secure h1{
+        font-size: 30px;
+        color: rgb(3, 24, 36);
+        margin-bottom: 10px;
+        font-weight: 800;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    .Securities .secure p{
+        font-size: 15px;
+        line-height: 24px;
+        margin-bottom: 30px;
+    }
+    
+    .Securities .secure a{
+        text-decoration: none;
+        font-weight: 600;
+        color: rgb(58, 58, 245);
+    }
+    
+    .Securities .secure a::after{
+        content: "";
+        background-color: black;
+        width: 0%;
+        height: 0px;
+        display: none;
+        border-bottom: 3px solid #444;
+        grid-column: auto; 
+     } 
+     .Securities .secure a:hover::after{
+         width: 10%;
+         transition: all 0.5s ease-in-out;
+     }
+     
+    
+
+
+    .Securities .savings{
+        border: 1px solid forestgreen;
+        height: 800px;
+        width: 100%;
+        margin-bottom: 300px;
+        margin-top: 320px;
+    }
+   
+    .Securities .savings .top{
        display: flex;
-       flex-wrap: nowrap;
-}
-
-
-.heading .fixed-header .nav-right{
-    padding: 30px 10px 39px 30px;
-    margin: 0px 20px 0px 0px;
-}
-
-.heading .fixed-header .nav-right a{ 
-    margin: 0px 50px 0px 0;
-    text-decoration: none;
-}
-.heading .fixed-header .nav-right .sign-up{
-    padding: 18px 18px 18px 18px;
-    border-radius: 10px;
-    color: black;
-    font-size: 16px;
-    font-weight: 700;
-}
-
-.heading .fixed-header .nav-right .sign-up:hover{
-    color: rgb(8, 140, 180);
-    border-color: rgb(8, 140, 180);
-    transition-duration: 1s;
+       margin: 10px auto;
+        padding: 10px 0;
+       flex-wrap: wrap;
+       border: 1px solid red;
+    }
     
-}
-
-.heading .fixed-header .nav-right .account{
-    padding: 18px 30px 18px 30px;
-    border-radius: 10px;
-    color: white;
-    background-color:rgb(3, 24, 36);
-    font-weight: 600; 
-}
-
-.heading .fixed-header .nav-right .account:hover{
-    background-color:  rgb(8, 140, 180);
-    transition: 1s;
-}
-
-
-.heading .relative-header{
-    margin: 70px 0 0px 0;
-    padding: 50px 0 390px 60px;
-    height: 550px;
-}
-.heading .relative-header .rel-textheader{
-    padding: 35px 0 50px 49px;
-    height: 490px;
-}
-
-
-.heading .relative-header h1{
-    font-size: 70px;
-    color: rgb(3, 24, 36);
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
-}
+     .Securities .savings .bottom{
+       display: flex;
+       flex-wrap: wrap;
+       padding: 10px 0;
+       border: 1px solid;
+       margin: 10px auto;
+     }
+   
+    .Securities .savings .save-intro{
+        height: 300px;
+        width: 690px;
+        margin: 0px auto;
+        text-align: center;
+        border: 1px solid black;
+        padding: 0px 30px 0px 30px;
+    }
     
-
-
-.heading .relative-header .relative-links{   
-      margin: 20px 0px 40px 0px ;
-      padding: 30px 50px 50px 0px;
-      display: inline-block;
-
-}
-
-.heading .relative-header .relative-links .relative-sublinks{
-        margin: 20px 0 0 0;
-        padding: 20px 20px 20px 0px;
+    
+    .Securities .savings .save-intro h1{
+        font-size: 29px;
+        margin: 0 auto;
+        color: rgb(3, 24, 36);
+        line-height: 42px;
+        margin-bottom: 12px;
+    }
+    .Securities .savings .save-intro p{
+        line-height: 20px;
+    }
+    
+    .Securities .savings .save-intro a{
+        padding: 18px 30px 18px 30px;
+        text-decoration: none;
+        border-radius: 10px;
+        color: white;
+        background-color:rgb(3, 24, 36);
+        font-weight: 600; 
+        border: 1px solid #111;
+        position: relative;
+        top: 50px;   
+    }
+    
+    
+    .Securities .savings .save-2nd{
+        height: 300px;
+        width: 330px;    
+        margin: 0px auto; 
+        border: 1px solid lawngreen;
+        border-radius: 20px;
+        padding: 0px 30px 0px 30px;
+        background-color: rgb(230, 230, 220, 0.3);
+    }
+    .Securities .savings .save-2nd img{
+        margin-bottom: 40px;
+    }
+    
+    .Securities .savings .save-2nd h2{
+        font-size: 19px;
+        color: rgb(3, 24, 36);
+    }
+    
+    .Securities .savings .save-2nd p{
+        line-height: 25px;
+        margin-top: 20px;
+    }
+    
+    .Securities .savings .save-2nd a{
+        position: relative;
+        top: 60px;
+        text-decoration: none;
+        color: #111;
+    }
+    
+    .Securities .savings .save-3rd{
+        height: 300px;
+        width: 330px;
+        border: 1px solid salmon;
+        margin: 0 auto;
+        border-radius: 20px;
+        padding: 0px 30px 0px 30px;
+        background-color: rgb(230, 230, 220, 0.3);
+    }
+    
+    .Securities .savings .save-3rd img{
+        margin-bottom: 40px;
+    }
+    
+    
+    .Securities .savings .save-3rd h2{
+        font-size: 19px;
+        color: rgb(3, 24, 36);
+    }
+    .Securities .savings .save-3rd p{
+        line-height: 25px;
+        margin-top: 0px;
+    }
+    
+    .Securities .savings .save-3rd a{
+        position: relative;
+        top: 60px;
+        text-decoration: none;
+        color: #111;
+    }
+    
+    .Securities .savings .save-4th{
+        height: 300px;
+        width: 330px;
+        border: 1px solid saddlebrown;
+        border-radius: 20px;
+        padding: 0px 30px 0px 30px;
+        margin: 0 auto;
+        background-color: rgb(230, 230, 220, 0.3);
+    }
+    
+    .Securities .savings .save-4th img{ 
+        margin-bottom: 40px;
+    }
+    
+    .Securities .savings .save-4th h2{
+        font-size: 19px;
+        color: rgb(3, 24, 36);
+    }
+    
+    .Securities .savings .save-4th p{
+        line-height: 25px;
+        margin-top: 0px;
+    }
+    
+    .Securities .savings .save-4th a{
+        position: relative;
+        top: 60px;
+        text-decoration: none;
+        color: #111;
+    }
+    
+    .Securities .savings .save-5th{
+        height: 300px;
+        width: 330px;
+        border: 3px solid silver; 
+        border-radius: 20px;
+        padding: 0px 30px 0px 30px;
+        margin: 0px auto;
+        background-color: rgb(230, 230, 220, 0.3);
+    }
+    
+    .Securities .savings .save-5th img{
+        margin-bottom: 40px;
+    }
+    
+    .Securities .savings .save-5th h2{
+        font-size: 19px;
+        color: rgb(3, 24, 36);
+    
+    }
+    
+    .Securities .savings .save-5th p{
+        line-height: 25px;
+        margin-top: 0px;
+    }
+    
+    .Securities .savings .save-5th a{
+        position: relative;
+        top: 60px;
+        text-decoration: none;
+        color: #111;
+    }
+    
+    .Securities .invest{
+        border: 1px solid #111;
+        display: block;
+        flex-direction: column;
+        height: 1300px;
+        padding-top: 0px;
+    }
+    
+    .Securities .invest .i-message{
+        height: 470px;
+        width: 590px;
+        position: relative;
+        left: 0px;
+        margin: 0 auto;
+        border: 1px solid;
+        text-align: center;
+        padding-top: 90px;
+        padding-left: 0px;
+    }
+    
+    .Securities .invest img{
+        position: relative;
+        left: 300px;
+        object-fit: cover;
+        border: 1px solid chartreuse;
+        height: 550px;
+        width: 250px;
+        border-radius: 39px;
+    }
+    
+    .Securities .invest .pop-up{
+        margin-bottom: 50px;
+        border: 1px solid khaki;
+        height: 40px;
+        width: 200px;
+        margin: 0 auto;
+        border-radius: 14px;
+        font-size: 15px;
+        padding: 3px 14px 0px 29px;
+        font-weight: 800;
+        background-color: rgba(112, 112, 110, 0.3);
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
-.heading .relative-header .relative-links .relative-sublinks a{
-    border: 1px solid rgb(204, 203, 203);
-    margin-left: 2px;
-    padding: 17px 17px 17px 17px;
-    text-decoration: none;
-    color: #111;
-    border-radius: 10px;
-    font-size: 13px;
-    font-weight:500;
-}    
-
-
-.heading .relative-header .relative-links .account{
-    padding: 18px 30px 18px 30px;
-    text-decoration: none;
-    border-radius: 10px;
-    color: white;
-    background-color:rgb(3, 24, 36);
-    font-weight: 600; 
-    border: 1px solid #111;
-    margin-bottom: 20px;
-
-}
-.heading .relative-header .relative-links img{
-     width: 30px;
-     border: 1px solid #111;
-     margin-right: 7px;
-     height: 28px;
-     position: relative;
-     top: 9px;
-}
-
-.heading .relative-header .rel-image .cover img{
-    border: 1px solid#888;
-    margin-left: 190px;
-    position: relative;
-    bottom: 520px;
-    right: -490px;
-    border-radius: 20px;
-    z-index: 3;
-}
-.heading .relative-header .rel-image .white img{  
-     border: 2px solid#222;
-     position: relative;
-     bottom: 1050px;
-     left: 740px;
-     height: 560px;
-     border-radius: 20px;
-     width: 340px;
-     z-index: 1;
-}
-
-.Securities{
+    .Securities .invest .pop-up p{
+        color:rgb(131, 24, 202);
+    }
     
-    margin-bottom: 60px;
-}
-
-.Securities .secure{
-    border: 1px solid #111;
-    text-align: center;
-    margin: 0px 0px 50px 0px;
-    padding: 150px 0px 30px 0px;
-    height: 400px;
-}
-
-
-
-.Securities .secure img{
-       width: 120px;
-       height: 120px;
-       position: relative;
-       right: 270px;
-       bottom: 90px;
-
-}
-.Securities .secure h1{
-    margin-left: 490px;
-    margin-bottom: 0px;
-    font-size: 34px;
-    width: 500px;
-    position: relative;
-    right: 20px;
-    bottom: 250px;
-    color: rgb(3, 24, 36);
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
-}
-
-.Securities .secure p{
-    margin-top: 0px;
-    width: 690px;
-    margin-left: 480px;
-    line-height: 30px;
-    position: relative;
-    bottom: 230px;
-
-}
-
-.Securities .secure a{
-    text-decoration: none;
-    padding: 4px 4px 4px 4px;
-    color: rgb(8, 140, 180);
-    margin: 90px 0px 0px 0px;
-    border: 1px solid #333;
-    position: relative;
-    bottom: 190px;
-    right: 150px;
-}
-
-.Securities .secure a::after{
-   content: "";
-   background-color: black;
-   width: 0%;
-   height: 0px;
-   display: inline-block;
-   border-bottom: 3px solid #444;
-   grid-column: auto;
-
-
-} 
-.Securities .secure a:hover::after{
-    width: 10%;
-    transition: all 0.5s ease-in-out;
-}
-
-
-
-.Securities .savings{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    height: 700px;
-    margin-bottom: 300px;
-
-}
-
-.Securities .savings .save-intro{
-    margin-left: 50px;
-    height: 300px;
-    padding: 0px 30px 0px 30px;
-}
-
-
-.Securities .savings .save-intro h1{
-    font-size: 35px;
-    color: rgb(3, 24, 36);
-    line-height: 42px;
-    margin-bottom: 12px;
-}
-.Securities .savings .save-intro p{
-    line-height: 25px;
-}
-
-.Securities .savings .save-intro a{
-    padding: 18px 30px 18px 30px;
-    text-decoration: none;
-    border-radius: 10px;
-    color: white;
-    background-color:rgb(3, 24, 36);
-    font-weight: 600; 
-    border: 1px solid #111;
-    position: relative;
-    top: 50px;
+    .Securities .invest h1{
+        font-size: 50px;
+        margin-bottom: 30px;
+        color: rgb(3, 24, 36);    
+    }
     
-}
+    .Securities .invest p{
+        line-height: 26px;
+        margin-bottom: 40px; 
+        color:rgb(3, 24, 36);    
+    }
+    .Securities .invest a{
+        text-decoration: none;
+        color: rgb(43, 116, 226);
+    }
 
+    .Exclusive{
+        border: 1px solid red;
+        display: block;
+        background-color: rgb(43, 116, 226);
+        padding: 0px 0px 0px 0px;
+    
+    }
+    
+    .Exclusive h1{
+        font-size: 55px;
+        color: white;
+        margin-bottom: 20px;
+        border: 1px solid gold;
+    }
+    
+    .Exclusive .news{
+        position: relative;
+        top: 60px;
+        left: 0px;
+        text-align: center;
+        margin-bottom: 90px;
+        border: 1px solid green;
+    }
+    
+    .Exclusive p{
+        color: bisque;
+        margin-bottom: 65px;
+        line-height: 25px;
+        font-size: 17px;
+        font-weight: 600;
+    }
+    
+    .Exclusive img{
+        position: relative;
+        left: 230px;
+        width: 350px;
+        height: 460px;
+        margin: 0 auto;
+        border: 1px solid firebrick;
+        object-fit: cover;
+    }
+    
+    .Exclusive a{
+        text-decoration: none;
+        color: white;
+        font-size: 19px;
+        font-weight: 600;
+    }
+    
+    .Customers{
+        border: 1px solid #222;
+        margin-top: 30px;
+        display: flex;
+        margin: 30px auto;
+        flex-direction: column-reverse;
+        height: 700px;
+        justify-content: space-around;
+    }
+    .Customers img{
+        width: 350px;
+        height: 350px;
+        margin: 0 auto;
+    }
+    
+    .Customers .cus{
+        border-left: 20px;
+        width: 570px;
+        text-align: center;
+        height: 400px;
+        border: 1px solid seagreen;
+        margin: 0 auto;
+    }
+    
+    .Customers .cus h1{
+        margin-bottom: 30px;
+        font-size: 35px;
+        color: rgb(3, 24, 36);
+    }
+    
+    .Customers .cus p{
+        line-height: 25px;
+    }
+    
+    .Customers .cus a{
+        border: 1px solid rgb(204, 203, 203);
+        margin-left: 2px;
+        padding: 17px 17px 17px 17px;
+        text-decoration: none;
+        color: #111;
+        border-radius: 10px;
+        font-size: 13px;
+        font-weight:500;
+        margin-top: 40px;
+    }
+    
+    .Customers .cus .sublinks{
+        height: 190px;
+        width: 100%;
+        border: 1px solid forestgreen;
+        text-align: center;
+    }
+    
+    .Customers .cus .apple{
+        position: relative;
+        top: 110px;
+        right: 110px;
+    }
+    
+    .Customers .cus .android{
+        position: relative;
+        top: 110px;
+        right: 100px;
+    }
+    
+    .Customers .cus .account{
+        padding: 18px 30px 18px 30px;
+        text-decoration: none;
+        border-radius: 10px;
+        color: white;
+        background-color:rgb(3, 24, 36);
+        font-weight: 600; 
+        border: 1px solid #111;
+        margin-bottom: 20px;
+        margin-left: 90px;
+        position: relative;
+        top: 30px;
+        right: -150px;
+        margin: 0 auto;
+    }
+    
+    .Customers .cus img{
+        width: 20px;
+        height: 10px;
+        width: 30px;
+         margin-right: 7px;
+         height: 28px;
+         position: relative;
+         top: 9px;
+    }
 
-.Securities .savings .save-2nd{
-    margin-left: 50px;
-    height: 300px;
-    border-radius: 20px;
-    padding: 0px 30px 0px 30px;
-    background-color: rgb(230, 230, 220, 0.3);
-}
-.Securities .savings .save-2nd img{
-    margin-bottom: 40px;
-}
+    .Ads{
+        border: 1px solid #111;
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        padding-top: 30px;
+        padding-bottom: 10px;
+        background-color: rgb(230, 230, 220, 0.3); ;
+    }
+    
+    .Ads h1{
+        margin-right: 0px;
+        text-align: center;
+        margin: 20px auto;
+        border: 1px solid;
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 19px;
+        font-size: 1.6rem;
+        color: rgb(3, 24, 36); 
+    }
 
-.Securities .savings .save-2nd h2{
-    font-size: 19px;
-    color: rgb(3, 24, 36);
-}
+    .Ads div{
+        margin: 0 auto;
+    }
+    
+    .Ads img{
+        width: 140px;
+        height: 70px;
+        margin: 0 auto;
+        border: 1px solid;
+    }
+    
+    
+    footer .top{
+        display: flex;
+        flex-direction: column;
+        height: 750px;
+    }
 
-.Securities .savings .save-2nd p{
-    line-height: 25px;
-    margin-top: 20px;
-}
+    .foot-logo{
+        width: 150px;
+        border: 1px solid mediumslateblue;
+        left: -30px;
+        top: 70px;
+        display: flex;
+        justify-content: flex-start;
+        position: relative;
+    }
 
-.Securities .savings .save-2nd a{
-    position: relative;
-    top: 60px;
-    text-decoration: none;
-    color: #111;
-}
+    footer .list{
+       border: 1px solid red;
+       padding-left: 30px;
+       display: flex;
+       width: 100%;
+       flex-wrap: wrap;
+    }
 
-.Securities .savings .save-3rd{
-    margin-left: 50px;
-    height: 300px;
-    border-radius: 20px;
-    padding: 0px 30px 0px 30px;
-    background-color: rgb(230, 230, 220, 0.3);
-}
+    footer h6{
+        font-size: 1.2rem;
+        margin-bottom: 0;
+        color: rgb(3, 24, 36);
+        font-weight: 800;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    footer a{
+        text-decoration: none;
+        color: rgb(3, 24, 36);
+        margin-bottom: 11px;
+        font-size: 1rem;
+        font-weight: 400;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    
+    footer .Pro{
+        display: flex;
+        flex-direction: column;
+        height: 165px;
+        width: 30%;
+        border: 1px solid darkblue;
+        margin-right: 150px;
+        margin-top: 20px;
+    }
+    
+    footer .Com{
+        display: flex;
+        flex-direction: column;
+        height: 165px;
+        width: 30%;
+        border: 1px solid skyblue;
+        margin-right: 120px;
+        margin-top: 20px;
+    }
+    
+    footer .Leg{
+        display: flex;
+        flex-direction: column;
+         height: 165px;
+         width: 100%;
+         border: 1px solid palegreen;
+         margin-right: 90px;
+         margin-top: 20px;
+    }
 
-.Securities .savings .save-3rd img{
-    margin-bottom: 40px;
-}
+    footer .contact{
+        border: 1px solid lawngreen;
+        padding-left: 30px;
+        text-align: start;
+    }
 
+    footer .contact a{
+        display: block;
+        font-size: 0.95rem;
+        font-weight: 300;
+    }
 
-.Securities .savings .save-3rd h2{
-    font-size: 19px;
-    color: rgb(3, 24, 36);
-}
-.Securities .savings .save-3rd p{
-    line-height: 25px;
-    margin-top: 0px;
-}
+    footer .contact .email{
+        border: 1px solid sandybrown;
+        margin-bottom: 20px;
+    }
+    
+    footer .contact p{
+        margin-bottom: 20px;
+        font-size: 15px;
+        color: rgb(3, 24, 36);
+    } 
+    
+    footer .contact .number{
+      position: relative;
+      top: 0px;
+      right: 0px;
+      margin-left: 0px;
+      border: 1px solid red;
+    }
+    
+    footer .contact img{
+        width: 30px;
+        height: 30px;
+        margin-bottom: 30px;
+        margin-left: 0px;
+    }
+    
+    footer .closing{
+       border: 1px solid teal;
+       text-align: center; 
+       color: rgb(3, 24, 36);
+       font-size: 0.85rem;
+       margin-bottom: 40px;
+       padding: 0 40px;
+       line-height: 25px;
+    }
 
-.Securities .savings .save-3rd a{
-    position: relative;
-    top: 60px;
-    text-decoration: none;
-    color: #111;
-}
-
-.Securities .savings .save-4th{
-    height: 300px;
-    border-radius: 20px;
-    padding: 0px 30px 0px 30px;
-    margin-left: 500px;
-    background-color: rgb(230, 230, 220, 0.3);
-}
-
-.Securities .savings .save-4th img{ 
-    margin-bottom: 40px;
-}
-
-.Securities .savings .save-4th h2{
-    font-size: 19px;
-    color: rgb(3, 24, 36);
-}
-
-.Securities .savings .save-4th p{
-    line-height: 25px;
-    margin-top: 0px;
-}
-
-.Securities .savings .save-4th a{
-    position: relative;
-    top: 60px;
-    text-decoration: none;
-    color: #111;
-}
-
-.Securities .savings .save-5th{
-    height: 300px;
-    border-radius: 20px;
-    padding: 0px 30px 0px 30px;
-    margin-left: 50px;
-    background-color: rgb(230, 230, 220, 0.3);
-}
-
-.Securities .savings .save-5th img{
-    margin-bottom: 40px;
-}
-
-.Securities .savings .save-5th h2{
-    font-size: 19px;
-    color: rgb(3, 24, 36);
-
-}
-
-.Securities .savings .save-5th p{
-    line-height: 25px;
-    margin-top: 0px;
-}
-
-.Securities .savings .save-5th a{
-    position: relative;
-    top: 60px;
-    text-decoration: none;
-    color: #111;
-}
-
-.Securities .invest{
-    border: 1px solid #111;
-    display: flex;
-    height: 700px;
-    padding-top: 90px;
-}
-
-.Securities .invest .i-message{
-    height: 470px;
-    width: 590px;
-    position: relative;
-    left: 290px;
-    padding-top: 30px;
-    padding-left: 30px;
-}
-
-.Securities .invest img{
-    position: relative;
-    left: 150px;
-    height: 550px;
-    width: 250px;
-}
-
-.Securities .invest .pop-up{
-    margin-bottom: 50px;
-    color: rgb(131, 24, 202);
-    height: 40px;
-    width: 200px;
-    border-radius: 14px;
-    font-size: 15px;
-    padding: 3px 14px 0px 29px;
-    font-weight: 800;
-    background-color: rgb(230, 230, 220, 0.3);
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.Securities .invest h1{
-    font-size: 50px;
-    margin-bottom: 30px;
-    color: rgb(3, 24, 36);    
-}
-
-.Securities .invest p{
-    line-height: 26px;
-    margin-bottom: 40px; 
-    color:rgb(3, 24, 36);    
-}
-.Securities .invest a{
-    text-decoration: none;
-    color: rgb(43, 116, 226);
-}
-
-.Exclusive{
-    border: 1px solid#222;
-    display: flex;
-    background-color: rgb(43, 116, 226);
-    padding: 0px 0px 0px 0px;
-
-}
-
-.Exclusive h1{
-    font-size: 55px;
-    color: white;
-    margin-bottom: 20px;
-}
-
-.Exclusive .news{
-    position: relative;
-    top: 60px;
-    left: 90px;
-}
-
-.Exclusive p{
-    color: bisque;
-    margin-bottom: 65px;
-    line-height: 25px;
-    font-size: 17px;
-    font-weight: 600;
-}
-
-.Exclusive img{
-    position: relative;
-    left: 395px;
-    width: 360px;
-    height: 460px;
-}
-
-.Exclusive a{
-    text-decoration: none;
-    color: white;
-    font-size: 19px;
-    font-weight: 600;
-}
-
-.Customers{
-    border: 1px solid #222;
-    margin-top: 30px;
-    display: flex;
-    height: 500px;
-    justify-content: space-around;
-}
-.Customers img{
-    width: 350px;
-    height: 350px;
-}
-
-.Customers .cus{
-    border-left: 90px;
-    width: 570px;
-    height: 400px;
-}
-
-.Customers .cus h1{
-    margin-bottom: 30px;
-    font-size: 35px;
-    color: rgb(3, 24, 36);
-}
-
-.Customers .cus p{
-    line-height: 25px;
-}
-
-.Customers .cus a{
-    border: 1px solid rgb(204, 203, 203);
-    margin-left: 2px;
-    padding: 17px 17px 17px 17px;
-    text-decoration: none;
-    color: #111;
-    border-radius: 10px;
-    font-size: 13px;
-    font-weight:500;
-    margin-top: 40px;
-}
-
-.Customers .cus .sublinks{
-    height: 190px;
-    width: 620px;
-}
-
-.Customers .cus .apple{
-    position: relative;
-    top: 110px;
-    right: 210px;
-}
-
-.Customers .cus .android{
-    position: relative;
-    top: 110px;
-    right: 200px;
-}
-
-.Customers .cus .account{
-    padding: 18px 30px 18px 30px;
-    text-decoration: none;
-    border-radius: 10px;
-    color: white;
-    background-color:rgb(3, 24, 36);
-    font-weight: 600; 
-    border: 1px solid #111;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    position: relative;
-    top: 30px;
-    right: 20px;
-}
-
-.Customers .cus img{
-    width: 20px;
-    height: 10px;
-    width: 30px;
-     margin-right: 7px;
-     height: 28px;
-     position: relative;
-     top: 9px;
-}
-
-.Ads{
-    border: 1px solid #111;
-    display: flex;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    padding-top: 30px;
-    padding-bottom: 10px;
-    background-color: rgb(230, 230, 220, 0.3); ;
-}
-
-.Ads h1{
-    margin-right: 170px;
-    margin-left: 190px;
-    margin-top: 19px;
-    color: rgb(3, 24, 36); 
-}
-
-.Ads img{
-    width: 170px;
-    height: 90px;
-}
-
-
-footer{
-    display: flex;
-    justify-content: space-around;
-    height: 500px;
-}
-footer h2{
-    margin-right: 30px;
-    font-size: 30px;
-    color: rgb(3, 24, 36);
-    margin-top: 80px;
-}
-footer h6{
-    font-size: 13px;
-    color: rgb(3, 24, 36);
-    font-weight: 800;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-footer a{
-    text-decoration: none;
-    color: rgb(3, 24, 36);
-    margin-bottom: 11px;
-    font-size: 13px;
-    font-weight: 400;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-
-footer .Pro{
-    display: flex;
-    flex-direction: column;
-    height: 165px;
-    margin-right: 150px;
-    margin-top: 70px;
-}
-
-footer .Com{
-    display: flex;
-    flex-direction: column;
-    height: 165px;
-    margin-right: 120px;
-    margin-top: 70px;
-}
-
-footer .Leg{
-    display: flex;
-    flex-direction: column;
-     height: 165px;
-     margin-right: 90px;
-     margin-top: 70px;
-}
-
-footer .contact p{
-    margin-bottom: 30px;
-    font-size: 15px;
-    color: rgb(3, 24, 36);
-} 
-
-footer .contact .number{
-  position: relative;
-  top: 20px;
-  right: 130px;
-}
-
-footer img{
-    width: 30px;
-    height: 30px;
-    margin-bottom: 30px;
-    margin-left: 30px;
+    footer .closing .blue{
+        margin-top: 50px;
+        color: rgb(0, 162, 255);
+    }
 
 }
+
+
+
 
 /* Mobile Styles */
-@media only screen and (max-width: 400px) {
-        
-.heading{
-    width: 10%;
-    height: 1000px;
-    margin-bottom: 990px;
- }
- 
- .heading .fixed-header{
-     display: flex;
-     justify-content: space-around;
- }
- 
- .heading .fixed-header .logo{
-     margin-left: 390px;
-     display: flex;
-     padding-top: 20px;
- }
- 
- .heading .fixed-header .logo h2{
-     font-size: 39px;
-     color: rgb(3, 24, 36);
-     font-weight: 700;
-     font-family:Verdana, Geneva, Tahoma, sans-serif;
- }
- .heading .fixed-header .logo img{
-     width: 59px;
-     height: 59px;
- }
- 
- .heading .fixed-header .nav-middle{
-     display: none;
-     margin: 0px 10px 0px 0px;
-     padding: 20px 60px 0px 0px;
- }
- 
- .heading .fixed-header .nav-middle ul{
-        display: none;
-         list-style: none;
- 
- 
- }
- 
- .heading .fixed-header .nav-middle ul li{
-     margin: 0 19px 0 27px;
-     position: relative;
-     display: flex;
-     flex-wrap: nowrap;
-     padding: 7px 5px 7px 5px;
-     color: rgb(3, 24, 36);
-     font-size: 16px;
-     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-     font-weight:600;
- }
- 
- .heading .fixed-header .nav-middle ul li a{ 
-     text-decoration: none;
-     color: rgb(3, 24, 36);
-     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
- }
- 
- .drop-menu{
-     display: none;
- }
- 
- .heading .fixed-header .nav-middle ul li:hover .drop-menu{
-     display: block;
-     position: absolute;
-     left: 0;
-     top: 100%;
-     left: -190px;
- }
- 
- .heading .fixed-header .nav-middle .drop-menu ul{
-     display: flex;
-     border: 1px solid #111;
-     flex-wrap: wrap;
-     width: 420px;
-     height: 140px;
-     border-radius: 20px;
- }
- 
- .heading .fixed-header .nav-middle .drop-menu ul li{
-        width: 150px;
-        height: 60px;
-        padding-right: 80px;
-        margin-bottom: 0px;
-        display: flex;
-        flex-wrap: nowrap;
- }
- 
- 
- .heading .fixed-header .nav-right{
-     display: none;
-     padding: 30px 10px 39px 30px;
-     margin: 0px 20px 0px 0px;
- }
- 
- .heading .fixed-header .nav-right a{ 
-     margin: 0px 50px 0px 0;
-     text-decoration: none;
- }
- .heading .fixed-header .nav-right .sign-up{
-     padding: 18px 18px 18px 18px;
-     border-radius: 10px;
-     color: black;
-     font-size: 16px;
-     font-weight: 700;
- }
- 
- .heading .fixed-header .nav-right .sign-up:hover{
-     color: rgb(8, 140, 180);
-     border-color: rgb(8, 140, 180);
-     transition-duration: 1s;
-     
- }
- 
- .heading .fixed-header .nav-right .account{
-     padding: 18px 30px 18px 30px;
-     border-radius: 10px;
-     color: white;
-     background-color:rgb(3, 24, 36);
-     font-weight: 600; 
- }
- 
- .heading .fixed-header .nav-right .account:hover{
-     background-color:  rgb(8, 140, 180);
-     transition: 1s;
- }
- 
- 
- .heading .relative-header{
-     margin: 7px 0 40px 0;
-     padding: 70px 0 30px 0px;
-     border: 1px solid #111;
-     height: 950px;
-     width: 900px;
-     align-items: flex-start;
-     display: flex;
-     flex-direction: column;
- }
- .heading .relative-header .rel-textheader{
-     padding: 5px 0 20px 0px;
-     height: 200px;
-     width: 90%;
-     align-items: center;
-     border: 1px solid #111;
- }
- 
- 
- .heading .relative-header h1{
-     font-size: 66px;
-     border: 1px solid red;
-     width: 70%;
-     margin-left: 90px;
-     height: 150px;
-     padding: 0px 0px 0px 50px;
-     color: rgb(3, 24, 36);
-     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-      margin-bottom: 170px;
- }
- .heading .relative-header p{
-     border: 1px solid #222;
-     width: 690px;
-     font-size: 34px;
-     align-items: center;
-     font-weight: 500;
-     line-height: 36px;
-     margin-left: 90px;
- }
-     
- 
- 
- .heading .relative-header .relative-links{   
-       margin: 70px 0px 40px 90px;
-       border: 1px solid chocolate;
-       padding: 0px 0px 0px 0px;
-       height: 400px;
-       width: 590px;
-       display: inline-block;
-    }
- 
- .heading .relative-header .relative-links .relative-sublinks{
-         margin: 50px 0 0 0px;
-         border: 1px solid navy;
-         padding: 40px 40px 40px 0px;
-         width: 790px;
-     }
- 
- .heading .relative-header .relative-links .relative-sublinks a{
-     border: 1px solid rgb(204, 203, 203);
-     margin-left: 2px;
-     margin-right: 20px;
-     padding: 15px 15px 15px 15px;
-     text-decoration: none;
-     color: #111;
-     border-radius: 20px;
-     font-size: 39px;
-     font-weight:500;
- }    
- 
- 
- .heading .relative-header .relative-links .account{
-     padding: 30px 42px 30px 42px;
-     text-decoration: none;
-     border-radius: 20px;
-     color: white;
-     background-color:rgb(3, 24, 36);
-     font-weight: 600; 
-     font-size: 30px;
-     border: 1px solid #111;
-     margin-bottom: 20px;
-     margin-left: 130px;
- 
- }
- .heading .relative-header .relative-links img{
-      width: 45px;
-      border: 1px solid #111;
-      margin-right: 7px;
-      height: 39px;
-      position: relative;
-      top: 9px;
- }
- 
- .heading .relative-header .rel-image .cover img{
-     border: 1px solid#888;
-     margin-left: 190px;
-     position: relative;
-     bottom: 100px;
-     right: 40px;
-     border-radius: 20px;
-     z-index: 3;
- }
- .heading .relative-header .rel-image .white img{  
-      border: 2px solid#222;
-      position: relative;
-      bottom: 630px;
-      left: 190px;
-      height: 560px;
-      border-radius: 20px;
-      width: 340px;
-      z-index: 1;
- }
- 
- .Securities{
-     margin-top: 0px;
- }
- 
- .Securities .secure{
-     border: 1px solid #111;
-     text-align: center;
-     margin: 0px 0px 150px 50px;
-     padding: 150px 0px 30px 0px;
-     height: 400px;
-     width: 700px;
- }
- 
- 
- 
- .Securities .secure img{
-        width: 170px;
-        height: 170px;
+@media only screen and (max-width: 790px) {
+    body{
+        background-color: cornflowerblue;
+    } 
+    
+    .Securities .invest{
+        border: 1px solid #111;
+        display: block;
+        flex-direction: column;
+        height: 1900px;
+        margin-top: 230px;
+        padding-top: 0px;
+    }    
+    .Securities .invest img{
         position: relative;
-        right: 10px;
-        bottom: 290px;
- 
- }
- .Securities .secure h1{
-     margin-left: 90px;
-     margin-bottom: 0px;
-     font-size: 39px;
-     width: 500px;
-     position: relative;
-     right: 20px;
-     bottom: 250px;
-     color: rgb(3, 24, 36);
-     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
- 
- }
- 
- .Securities .secure p{
-     margin-top: 0px;
-     width: 490px;
-     margin-left: 80px;
-     font-size: 26px;
-     line-height: 35px;
-     position: relative;
-     bottom: 230px;
- 
- }
- 
- .Securities .secure a{
-     text-decoration: none;
-     padding: 4px 4px 4px 4px;
-     color: rgb(8, 140, 180);
-     margin: 90px 0px 0px 0px;
-     border: 1px solid #333;
-     position: relative;
-     bottom: 190px;
-     right: 30px;
- }
- 
- .Securities .secure a::after{
-    content: "";
-    background-color: black;
-    width: 0%;
-    height: 0px;
-    display: inline-block;
-    border-bottom: 3px solid #444;
-    grid-column: auto;
- 
- 
- } 
- .Securities .secure a:hover::after{
-     width: 10%;
-     transition: all 0.5s ease-in-out;
- }
- 
- 
- 
- .Securities .savings{
-     display: flex;
-     flex-wrap: wrap;
-     width: 500px;
-     justify-content: space-around;
-     height: 700px;
-     margin-bottom: 1300px;
-     margin-left: 90px;
- }
- 
- .Securities .savings .save-intro{
-     margin-left: 50px;
-     height: 300px;
-     padding: 0px 30px 0px 30px;
- }
- 
- 
- .Securities .savings .save-intro h1{
-     font-size: 35px;
-     color: rgb(3, 24, 36);
-     line-height: 42px;
-     margin-bottom: 12px;
- }
- .Securities .savings .save-intro p{
-     line-height: 25px;
- }
- 
- .Securities .savings .save-intro a{
-     padding: 18px 30px 18px 30px;
-     text-decoration: none;
-     border-radius: 10px;
-     color: white;
-     background-color:rgb(3, 24, 36);
-     font-weight: 600; 
-     border: 1px solid #111;
-     position: relative;
-     top: 50px;
-     
- }
- 
- 
- .Securities .savings .save-2nd{
-     margin-left: 50px;
-     height: 300px;
-     margin-bottom: 30px;
-     border-radius: 20px;
-     padding: 0px 30px 0px 30px;
-     background-color: rgb(230, 230, 220, 0.3);
- }
- .Securities .savings .save-2nd img{
-     margin-bottom: 40px;
- }
- 
- .Securities .savings .save-2nd h2{
-     font-size: 19px;
-     color: rgb(3, 24, 36);
- }
- 
- .Securities .savings .save-2nd p{
-     line-height: 25px;
-     margin-top: 20px;
- }
- 
- .Securities .savings .save-2nd a{
-     position: relative;
-     top: 60px;
-     text-decoration: none;
-     color: #111;
- }
- 
- .Securities .savings .save-3rd{
-     margin-left: 50px;
-     height: 300px;
-     margin-bottom: 30px;
-     border-radius: 20px;
-     padding: 0px 30px 0px 30px;
-     background-color: rgb(230, 230, 220, 0.3);
- }
- 
- .Securities .savings .save-3rd img{
-     margin-bottom: 40px;
- }
- 
- 
- .Securities .savings .save-3rd h2{
-     font-size: 19px;
-     color: rgb(3, 24, 36);
- }
- .Securities .savings .save-3rd p{
-     line-height: 25px;
-     margin-top: 0px;
- }
- 
- .Securities .savings .save-3rd a{
-     position: relative;
-     top: 60px;
-     text-decoration: none;
-     color: #111;
- }
- 
- .Securities .savings .save-4th{
-     height: 300px;
-     border-radius: 20px;
-     padding: 0px 30px 0px 30px;
-     margin-left: 50px;
-     margin-bottom: 30px;
-     background-color: rgb(230, 230, 220, 0.3);
- }
- 
- .Securities .savings .save-4th img{ 
-     margin-bottom: 40px;
- }
- 
- .Securities .savings .save-4th h2{
-     font-size: 19px;
-     color: rgb(3, 24, 36);
- }
- 
- .Securities .savings .save-4th p{
-     line-height: 25px;
-     margin-top: 0px;
- }
- 
- .Securities .savings .save-4th a{
-     position: relative;
-     top: 60px;
-     text-decoration: none;
-     color: #111;
- }
- 
- .Securities .savings .save-5th{
-     height: 300px;
-     border-radius: 20px;
-     padding: 0px 30px 0px 30px;
-     margin-left: 50px;
-     margin-top: 30px;
-     background-color: rgb(230, 230, 220, 0.3);
- }
- 
- .Securities .savings .save-5th img{
-     margin-bottom: 40px;
- }
- 
- .Securities .savings .save-5th h2{
-     font-size: 19px;
-     color: rgb(3, 24, 36);
- 
- }
- 
- .Securities .savings .save-5th p{
-     line-height: 25px;
-     margin-top: 0px;
- }
- 
- .Securities .savings .save-5th a{
-     position: relative;
-     top: 60px;
-     text-decoration: none;
-     color: #111;
- }
- 
- .Securities .invest{
-     border: 1px solid #111;
-     display: flex;
-     flex-wrap: wrap;
-     height: 700px;
-     width: 500px;
-     margin-left: 90px;
-     padding-top: 90px;
-     margin-bottom: 590px;
- }
- 
- .Securities .invest .i-message{
-     height: 470px;
-     width: 590px;
-     position: relative;
-     left: 90px;
-     padding-top: 130px;
-     padding-left: 0px;
- }
- 
- .Securities .invest img{
-     position: relative;
-     left: 150px;
-     height: 550px;
-     width: 250px;
- }
- 
- .Securities .invest .pop-up{
-     margin-bottom: 50px;
-     color: rgb(131, 24, 202);
-     height: 40px;
-     width: 200px;
-     border-radius: 14px;
-     font-size: 15px;
-     padding: 3px 14px 0px 29px;
-     font-weight: 800;
-     background-color: rgb(230, 230, 220, 0.3);
-     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
- }
- 
- .Securities .invest h1{
-     font-size: 50px;
-     margin-bottom: 30px;
-     color: rgb(3, 24, 36);    
- }
- 
- .Securities .invest p{
-     line-height: 26px;
-     margin-bottom: 40px; 
-     color:rgb(3, 24, 36);    
- }
- .Securities .invest a{
-     text-decoration: none;
-     color: rgb(43, 116, 226);
- }
-
- 
-.Exclusive{
-    border: 1px solid#222;
-    display: flex;
-    margin-bottom: 590px;
-    width: 900px;
-    height: 1000px;
-    flex-wrap: wrap;
-    background-color: rgb(43, 116, 226);
-    padding: 0px 0px 0px 0px;
-
-}
-
-.Exclusive h1{
-    font-size: 55px;
-    margin-left: 70px;
-    color: white;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.Exclusive .news{
-    position: relative;
-    top: 60px;
-    left: 90px;
-}
-
-.Exclusive p{
-    color: bisque;
-    text-align: center;
-    margin-left: 70px;
-    margin-bottom: 65px;
-    line-height: 25px;
-    font-size: 17px;
-    font-weight: 600;
-}
-
-.Exclusive img{
-    position: relative;
-    left: 95px;
-    top: 90px;
-    width: 590px;
-    height: 490px;
-}
-
-.Exclusive a{
-    text-decoration: none;
-    color: white;
-    font-size: 19px;
-    font-weight: 600;
-    margin-left: 70px;
-}
-
-.Customers{
-    border: 1px solid #222;
-    margin-top: 30px;
-    display: flex;
-    flex-wrap: wrap;
-    width: 900px;
-    margin-left: 30px;
-    height: 1300px;
-    margin-bottom: 390px;
-    justify-content: space-around;
-}
-.Customers img{
-    width: 390px;
-    height: 390px;
-    margin-bottom: 0px;
-}
-
-.Customers .cus{
-    margin-left: 190px;
-    width: 570px;
-    height: 400px;
-}
-
-.Customers .cus h1{
-    margin-bottom: 30px;
-    font-size: 39px;
-    color: rgb(3, 24, 36);
-}
-
-.Customers .cus p{
-    line-height: 34px;
-    font-size: 34px;
-    margin-bottom: 90px;
-}
-
-.Customers .cus a{
-    border: 1px solid rgb(204, 203, 203);
-    margin-left: 0px;
-    height: 30px;
-    width: 140px;
-    padding: 10px 7px 0px 10px;
-    text-decoration: none;
-    color: #111;
-    border-radius: 10px;
-    font-size: 10px;
-    font-weight:500;
-    margin-top: 0px;
-}
-
-.Customers .cus .sublinks{
-    height: 30px;
-    width: 590px;
-    display: flex;
-    flex-wrap: nowrap; 
-    border: 1px solid red;
-}
-
-.Customers .cus .apple{
-    position: relative;
-    top: 30px;
-    right: 190px;
-}
-
-.Customers .cus .android{
-    position: relative;
-    top: 10px;
-    right: 80px;
-}
-
-.Customers .cus .account{
-    padding: 18px 30px 18px 30px;
-    text-decoration: none;
-    border-radius: 10px;
-    color: white;
-    background-color:rgb(3, 24, 36);
-    font-weight: 600; 
-    border: 1px solid #111;
-    margin-bottom: 90px;
-    margin-left: 20px;
-    position: relative;
-    top: -30px;
-    right: 20px;
-}
-
-.Customers .cus img{
-    width: 20px;
-    height: 10px;
-     margin-left: 40px;
-     height: 28px;
-     position: relative;
-     top: 9px;
-}
-
-.Ads{
-    border: 1px solid #111;
-    display: flex;
-    flex-wrap: wrap;
-    width: 700px;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    padding-top: 30px;
-    padding-bottom: 10px;
-    background-color: rgb(230, 230, 220, 0.3); ;
-}
-
-.Ads h1{
-    margin-right: 170px;
-    margin-left: 190px;
-    margin-top: 19px;
-    color: rgb(3, 24, 36); 
-}
-
-.Ads img{
-    width: 170px;
-    height: 90px;
-}
-
-
-footer{
-    display: flex;
-    justify-content: space-around;
-    height: 500px;
-}
-footer h2{
-    margin-right: 30px;
-    font-size: 30px;
-    color: rgb(3, 24, 36);
-    margin-top: 80px;
-}
-footer h6{
-    font-size: 13px;
-    color: rgb(3, 24, 36);
-    font-weight: 800;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-footer a{
-    text-decoration: none;
-    color: rgb(3, 24, 36);
-    margin-bottom: 11px;
-    font-size: 13px;
-    font-weight: 400;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-
-footer .Pro{
-    display: flex;
-    flex-direction: column;
-    height: 165px;
-    margin-right: 150px;
-    margin-top: 70px;
-}
-
-footer .Com{
-    display: flex;
-    flex-direction: column;
-    height: 165px;
-    margin-right: 120px;
-    margin-top: 70px;
-}
-
-footer .Leg{
-    display: flex;
-    flex-direction: column;
-     height: 165px;
-     margin-right: 90px;
-     margin-top: 70px;
-}
-
-footer .contact p{
-    margin-bottom: 30px;
-    font-size: 15px;
-    color: rgb(3, 24, 36);
-} 
-
-footer .contact .number{
-  position: relative;
-  top: 20px;
-  right: 130px;
-}
-
-footer img{
-    width: 30px;
-    height: 30px;
-    margin-bottom: 30px;
-    margin-left: 30px;
-
-}
-
-  }
-
-   /* Tablet Styles */
-   @media only screen and (min-width: 401px) and (max-width: 960px) {
-
-  }
-
- /* Desktop Styles */
- @media only screen and (min-width: 961px) {
-    body {
-      background-color: #B2D6FF; /* Blue */
-        
+        left: 250px;
+        object-fit: cover;
+        border: 1px solid chartreuse;
+        height: 550px;
+        width: 250px;
+        margin-top: 550px;
+        border-radius: 39px;
     }
- }
 
+    .Securities .savings .top{
+        display: flex;
+        margin: 10px auto;
+        padding: 10px 50px;   
+        flex-wrap: wrap;
+        border: 1px solid red;
+     }
+     
+      .Securities .savings .bottom{
+        display: flex;
+        flex-wrap: wrap;
+         padding: 10px 50px;
+        border: 1px solid;
+        margin: 10px auto;
+      }
+        
+      .Securities .savings .save-2nd{
+        height: 300px;
+        width: 330px;    
+        margin: 20px auto; 
+        border: 1px solid lawngreen;
+        border-radius: 20px;
+        padding: 0px 30px 0px 30px;
+        background-color: rgb(230, 230, 220, 0.3);
+    }
 
-
-
-
-
-
-/*
-margin: 20px 0 0 0;
-border: 1px solid #444;
-padding: 20px 20px 20px 0px;
-border: 1px solid#888;
+    .Securities .savings .save-5th{
+        height: 300px;
+        width: 330px;
+        border: 3px solid silver; 
+        border-radius: 20px;
+        padding: 0px 30px 0px 30px;
+        margin: 20px auto;
+        background-color: rgb(230, 230, 220, 0.3);
+    }
+    
 }
-
-
-  border: 1px solid rgb(204, 203, 203);
-    margin-left: 2px;
-    padding: 17px 17px 17px 17px;
-    text-decoration: none;
-    color: #111;
-    border-radius: 10px;
-    font-size: 13px;
-    font-weight:500;
-
- width: 30px;
-     border: 1px solid #111;
-     margin-right: 7px;
-     height: 28px;
-     position: relative;
-     top: 9px;
-}
-
